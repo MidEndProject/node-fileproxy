@@ -1,0 +1,17 @@
+{
+  "name": "fileproxy",
+  "version": "0.1.0",
+  "description": "A simple HTTP proxy for serving static files",
+  "author": "Fitra Aditya <fitra@g.pl>",
+  "repository": {
+    "url": "https://github.com/MidEndProject/node-fileproxy"
+  },
+  "dependencies": {
+    "mime": "1.3.4"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "mocha": "^2.1.0"
+  }
+}
