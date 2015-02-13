@@ -14,7 +14,7 @@ A simple HTTP proxy for serving static files
 
 #### fileproxy.server()
 
-```
+``` javascript
 var http  = require('http');
 var proxy = require('../index.js');
 
