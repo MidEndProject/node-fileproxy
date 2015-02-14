@@ -1,5 +1,7 @@
 # node-fileproxy
 
+[![Build Status](https://travis-ci.org/MidEndProject/node-fileproxy.svg?branch=master)](https://travis-ci.org/MidEndProject/node-fileproxy)
+
 A simple HTTP proxy for serving static files
 
 ## Installation
@@ -48,6 +50,7 @@ app.route('/:user/:repo/:branch/*').get(
 
 app.listen(8000);
 ```
+
 
 Callback is optional. It will return http response status and mime type for result, and http response status for error.
 
